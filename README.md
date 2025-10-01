@@ -29,9 +29,7 @@ A aplicação gerencia as seguintes entidades:
 2.  **Instalar Pacotes NuGet:**
     Certifique-se de ter os pacotes necessários instalados. Se estiver usando o Visual Studio, eles podem ser instalados via Gerenciador de Pacotes NuGet; se estiver usando a CLI:
     ```bash
-    dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-    dotnet add package Microsoft.EntityFrameworkCore.Design
-    dotnet add package Microsoft.EntityFrameworkCore.Tools
+    dotnet restore
     ```
 
 3.  **Criar e Aplicar Migrações:**
@@ -52,3 +50,12 @@ Execute a aplicação a partir da linha de comando:
 
 ```bash
 dotnet run
+```
+
+
+### Integrantes
+
+- Vitor Shimizu 550390
+- Fabrizio Maia 551869
+- Victor Asfur 551684
+- André Soler 98827
