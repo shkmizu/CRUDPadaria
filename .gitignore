@@ -1,0 +1,16 @@
+# 1. Pastas de Build (GERADAS - IGNORAR)
+[Bb]in/
+[Oo]bj/
+
+# 2. Arquivos de Banco de Dados Local (GERADOS - IGNORAR)
+# Ignora o arquivo SQLite local
+PadariaDB.db
+
+# Ignora qualquer arquivo de banco de dados SQLite genérico
+*.db
+*.sqlite
+
+# 3. Arquivos de Configuração de Usuário (OPCIONAL - IGNORAR)
+# Arquivos de configurações locais do Visual Studio Code ou Visual Studio
+.vscode/
+*.user
